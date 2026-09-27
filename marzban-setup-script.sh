@@ -37,7 +37,7 @@ echo "🚀 Installing Marzban..."
 sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install
 
 echo "🔐 Generating SSL Certificates..."
-sudo bash -c "$(curl -sL https://raw.githubusercontent.com/zinmyothan25/Marzban/refs/heads/main/essl.sh)" @ --install
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/zinmyothan25/Marzban-Setup/refs/heads/main/essl.sh)" @ --install
 # SSL issue can take time, added sudo
 sudo essl "$EMAIL" "$DOMAIN" marzban
 
